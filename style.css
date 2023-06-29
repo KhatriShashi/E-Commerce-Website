@@ -299,3 +299,44 @@ body {
 #banner button{
   margin-top: 7px;
 }
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+}
+#sm-banner .sm-banner-box{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-size: cover;
+  width: 50%;
+  height: 50vh;
+  padding: 20px 60px;
+  margin: 0 5px;
+}
+#sm-banner .sm-banner-box h3{
+  color: white;
+  font-size: 16px;
+}
+#sm-banner .sm-banner-box h2{
+  color: white;
+  font-size: 35px;
+  padding-top: 5px;
+}
+#sm-banner .sm-banner-box p{
+  color: white;
+  padding-top: -10px;
+}
+#sm-banner .sm-banner-box button{
+  border-radius: 0;
+}
+#sm-banner .sm-banner-box:nth-child(1) button{
+  background-color: #088178;
+  border: 1px solid #fff;
+}
+#sm-banner .sm-banner-box:nth-child(2) button{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
