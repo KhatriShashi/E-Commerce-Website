@@ -310,10 +310,11 @@ body {
   align-items: start;
   justify-content: center;
   background-size: cover;
-  width: 50%;
+  min-width: 50%;
   height: 50vh;
   padding: 20px 60px;
-  margin: 0 5px;
+  margin:0 5px;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
 }
 #sm-banner .sm-banner-box h3{
   color: white;
@@ -326,17 +327,14 @@ body {
 }
 #sm-banner .sm-banner-box p{
   color: white;
-  padding-top: -10px;
+  margin-top:7px;
 }
 #sm-banner .sm-banner-box button{
   border-radius: 0;
-}
-#sm-banner .sm-banner-box:nth-child(1) button{
-  background-color: #088178;
-  border: 1px solid #fff;
-}
-#sm-banner .sm-banner-box:nth-child(2) button{
   background-color: transparent;
   border: 1px solid #fff;
-  color: white;
+  color: #fff;
+}
+#sm-banner .sm-banner-box:hover button{
+  background-color: #088178;
 }
