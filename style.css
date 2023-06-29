@@ -422,3 +422,79 @@ body {
   color: #fff;
   border-radius: 0 4px 4px 0;
 }
+
+/* footer */
+#footer-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#footer-section .contact h5{
+  font-size: 15px;
+  margin: 20px 0;
+
+}
+#footer-section .contact p span{
+  font-weight: 800;
+  color: black;
+}
+#footer-section .contact p{
+  font-size: 13px;
+  margin:10px 0;
+  font-weight: 400;
+}
+#footer-section .social-media h5{
+  font-size: 20px;
+  margin: 30px 0 10px 0;
+}
+#footer-section .social-media a{
+  text-decoration: none;
+}
+#footer-section .social-media i{
+  margin: 0 4px;
+  font-size: 20px;
+  color: #000;
+}
+
+#footer-section .about h5{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#footer-section .about a{
+  text-decoration: none;
+  color: #1a1a1a;
+  display:block;
+  font-size: 13px;
+  padding: 5px 0;
+  font-weight: 400;
+}
+.App-feature h5{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.App-feature p{
+  font-size: 13px;
+
+}
+.App-feature .app-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.App-feature .app-link a{
+  text-decoration: none;
+  border: 1px solid #041e42;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.App-feature .app-link img{
+  border-radius: 5px;
+}
+
+#footer-section .copywrite{
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+#footer-section .copywrite p{
+  font-size: 12px;
+}
