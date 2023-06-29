@@ -116,11 +116,6 @@ body {
   width: 100%;
   right: 0;
 }
-#header .navbar .shoping-cart-icon{
-  height: 25px;
-  width: 25px;
-}
-
 /* hero image */
 #hero{
   background-image: url("img/hero4.png");
@@ -316,6 +311,12 @@ body {
   margin:0 5px;
   box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
 }
+#sm-banner .sm-banner-box1{
+  background-image:url("img/banner/b17.jpg");
+}
+#sm-banner .sm-banner-box2{
+  background-image:url("img/banner/b10.jpg");
+}
 #sm-banner .sm-banner-box h3{
   color: white;
   font-size: 16px;
@@ -337,4 +338,87 @@ body {
 }
 #sm-banner .sm-banner-box:hover button{
   background-color: #088178;
+}
+
+#banner3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+}
+#banner3 .banner3-box{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-size: cover;
+  width: 33%;
+  height: 35vh;
+  padding: 0 20px;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+}
+#banner3 .banner3-box1{
+  background-image: url("img/banner/b7.jpg");
+}
+#banner3 .banner3-box2{
+  background-image: url("img/banner/b4.jpg");
+}
+#banner3 .banner3-box3{
+  background-image: url("img/banner/b18.jpg");
+}
+#banner3 .banner3-box h2{
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#banner3 .banner3-box h4{
+  color: #ef3636;
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+/* newsletter */
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("img/banner/b14.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+#newsletter .newstext h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+#newsletter .newstext p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+#newsletter .newstext p span{
+  color: #ffbd27;
+}
+
+#newsletter .newsletter-email{
+  display: flex;
+  width: 40%;
+}
+#newsletter .newsletter-email input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+#newsletter .newsletter-email button{
+  background-color: #088178;
+  white-space: nowrap;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
 }
