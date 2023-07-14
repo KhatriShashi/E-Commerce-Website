@@ -176,7 +176,7 @@ body {
 #feature{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 #feature .feature-box{
@@ -888,10 +888,9 @@ body {
     background-position: top 30% right 30%;
   }
   #feature{
-    justify-content: center;
+    justify-content: space-evenly;
   }
   #feature .feature-box{
-    margin: 10px 10px;
     padding: 30px 30px;
   }
   #product1 .pro-container{
@@ -960,22 +959,25 @@ body {
     padding:30px 10px;
    }
    #feature{
-    justify-content: space-between;
-    padding: 20px;
-    margin: 5px 5px;
-
+    justify-content:space-evenly;
+    padding: 10px;
    }
-   #product1 .pro-container{
-    padding: 10px 20px 0 20px;
-    justify-content: space-between;
-  }
-  #product1 .pro{
-    width: 45%;
-    padding: 10px 12px;
-    margin: 10px 0;
-  }
+   #product1 .pro-container {
+    justify-content: space-evenly;
+}
+#product1 .pro {
+  width: 48%;
+  padding: 10px 12px;
+  margin: 10px 0;
+}
   #sm-banner .sm-banner-box{
     height: 30vh;
+  }
+  #sm-banner .sm-banner-box h3 {
+    font-size: 16px;
+  }
+  #sm-banner .sm-banner-box h2{
+    font-size: 22px;
   }
   #banner3{
     padding: 0 20px;
