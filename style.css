@@ -889,9 +889,10 @@ body {
   }
   #feature{
     justify-content: space-evenly;
+    padding: 10px 5px;
   }
   #feature .feature-box{
-    padding: 30px 30px;
+    padding: 25px 25px;
   }
   #product1 .pro-container{
     justify-content: center;
@@ -959,9 +960,12 @@ body {
     padding:30px 10px;
    }
    #feature{
-    justify-content:space-evenly;
-    padding: 10px;
-   }
+    justify-content: space-evenly;
+    padding: 10px 5px;
+  }
+  #feature .feature-box{
+    padding: 25px 25px;
+  }
    #product1 .pro-container {
     justify-content: space-evenly;
 }
